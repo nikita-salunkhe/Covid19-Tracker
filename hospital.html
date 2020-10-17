@@ -2,7 +2,7 @@
 <html>
 
 <head>
- 
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
   <!-- jQuery library -->
@@ -20,28 +20,31 @@
      border: gray solid 0.5px;
     }
     td {
-      
+
     }
     thead{
      background-color:#4e3357;
      color: white;
    }
-    
-
-    #top1{
-      background-image: url('https://www.dentons.com/-/media/images/website/background-images/issues-and-opportunities/covid-19/covid-19_background.jpg');
-     
-      background-color:rgb(31, 37, 116);
-      text-align: center;
-      color: white;
-    }
-    
 
 
-    
+   #top1{
+     background-image: url('https://res.cloudinary.com/lokaci/image/upload/v1585031919/Newsroom/covid-19-banner_sec6x0.jpg');
+     background-color:rgb(31, 37, 116);
+     color: white;
+
+     padding: 100px;
+     width: 100%;
+     height: 450px;
+   }
+
+
+
+
+
 .header{
-    
-    
+
+
     height: 100vh;
     position: relative;
     background-size: cover;
@@ -51,12 +54,12 @@
     -msn-background-size: cover;
 }
 .header .overlay{
-  
+
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0; 
+    left: 0;
 }
 
 
@@ -64,7 +67,7 @@
   background-color:transparent !important;
   border-color:transparent;
   background-image:none;
-  box-shadow:none;  
+  box-shadow:none;
 }
 .header .navbar-default .navbar-brand{
     font-size: 30px;
@@ -73,8 +76,8 @@
 }
 
 .header .navbar-default .navbar-nav>li>a {
-   font-size:20px; 
-   color:#d1c5cd; 
+   font-size:20px;
+   color:#d1c5cd;
     border-bottom: 1px solid transparent
 }
 .header .navbar-default .navbar-nav>li:hover a{
@@ -84,10 +87,25 @@
 
 
 .header .navbar-toggle {
-      margin:10px 0; 
-      background:#36C; 
+      margin:10px 0;
+      background:#36C;
       color:#FFF;
 }
+.bg-text {
+  margin-top:2rem;
+  margin-bottom: 1rem;
+  margin-left: 20rem;
+
+  background-color: rgba(0,80,80, 0.5);
+  top: 50%;
+  left: 20%;
+  padding: 1px;
+  width: 60%;
+}
+.con{
+  background-color: black;
+}
+
   </style>
 </head>
 <body>
@@ -106,75 +124,68 @@
                             <span class="icon-bar"></span>
                           </button>
                             <div class="navlogo col-lg-2">
-                                
+
                             </div>
-                          
+
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
-                          
+
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <div class="col-lg-10">
                                       <ul class="nav navbar-nav nav-links">
-                                         <li><a href="main.html">Home</a></li>
-                                        <li><a href="one.html">Contact & Helpline</a></li>
-                                        <li><a href="notad.html">Notifications & Advisories</a></li>
-                                        <li><a href="college.html">Colleges & Beds</a></li>
-                                        <li><a href="deceased.html">Deceased</a></li>
+                                         <li><a href="index.html" style="color: #F0FFFF">Home</a></li>
+                                        <li><a href="one.html" style="color: #F0FFFF">Helpline</a></li>
+                                        <li><a href="notad.html" style="color: #F0FFFF">Notifications</a></li>
+                                        <li><a href="college.html" style="color: #F0FFFF">Colleges & Beds</a></li>
+                                        <li><a href="deceased.html" style="color: #F0FFFF">Deceased</a></li>
                                       </ul>
                                     </div>
-                                    
+
                                 <div class="col-lg-2 right">
                                      <ul class="nav navbar-nav navbar-right">
-                                       
+
                                     </ul>
                                 </div>
-                              
+
                             </div>
-                         
+
 
                       </div>
                  </div>
-                
-                
                 </div>
-        
-                
-                
-                
-                
             </div>
-        
-
-
  <div class="panel ">
     <div class="panel-heading" id="top1">
-       <div class="container" style="margin-top:10rem; margin-bottom: 10rem;">
-                <div class="row">
-                 <h1><b>Hospitals & Beds</b></h1> 
-                 <br>
-                 </div>
-         </div>
+
     </div>
     <br>
-    
+    <div class="container">
+             <div class="row">
+               <div class="bg-text">
+                 <center>
+              <h1 style ="color: Snow">Hospital and beds</h1>
+             </center>
+             </div>
+             </div>
+      </div>
     <br>
-    
+
     <div class="row">
       <div class="col-sm-1 col-md-1 col-xs-1 col-lg-1">
       </div>
       <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10">
-       
+
         <br>
 <table  class="table table-responsive" id="emp">
-  <div class="d-flex justify-content-center"> 
-      <div class="spinner-border" 
-           role="status" id="loading"> 
-          <span class="sr-only">Loading...</span> 
-      </div> 
-  </div> 
-      
-</table> 
+  <div class="d-flex justify-content-center">
+      <div class="spinner-border"
+           role="status" id="loading">
+          <span class="sr-only">Loading...</span>
+      </div>
+  </div>
+
+</table>
 <div class="col-sm-1 col-md-1 col-xs-1 col-lg-1">
 </div>
 
@@ -183,13 +194,76 @@
 
 
 
-         
-    
-  </div> 
-      
 
+
+  </div>
+
+  <footer class="con">
+<div class="container">
+<section id="contact_us">
+<center>
+<br>
+<br>
+<h1 style= "color:  #d1c5cd">Contact Us</h1>
+<br>
+<br>
+<div class="mb-5 flex-center">
+  <!-- Facebook -->
+  <a class="fb-ic">
+    <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x" style="padding: 1rem; font-size:60px;color: #3b5998;"> </i>
+  </a>
+  <!-- Twitter -->
+  <a class="tw-ic">
+    <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x" style="padding: 1rem; font-size:60px;color: #00aced;"> </i>
+  </a>
+  <!-- Google +-->
+  <a class="gplus-ic">
+    <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x" style="padding: 1rem; font-size:60px;color:green"> </i>
+  </a>
+  <!--Linkedin -->
+  <a class="li-ic">
+    <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x" style="padding: 1rem; font-size:60px; color: #0e76a8"> </i>
+  </a>
+  <!--Instagram-->
+  <a class="ins-ic">
+    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x" style="padding: 1rem; font-size:60px;  color: pink;"> </i>
+  </a>
+  <br>
+  <br>
+</div>
+<div class="row">
+    <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4"></div>
+    <div class="col-sm-2 col-md-2 col-xs-2 col-lg-2">
+  <a class="phone">
+    <i class="fa fa-phone" aria-hidden="true" style="font-size:36px;color: #d1c5cd"> </i>
+    <br>
+    <h5 style="font-size:20px;color: #d1c5cd">777777777</h5>
+  </a>
+  <br>
+</div>
+  <div class="col-sm-2 col-md-2 col-xs-2 col-lg-2">
+  <!--Pinterest-->
+  <a class="email">
+    <i class="fa fa-envelope" aria-hidden="true" style="font-size:36px;color: #d1c5cd"> </i>
+    <br>
+      <h6 style="font-size:20px;color: #d1c5cd">123@gmail.com</h6>
+  </a>
+</div>
+<div class="col-sm-4 col-md-4 col-xs-4 col-lg-4"></div>
+</div>
+</center>
+
+</section>
+</div>
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3" style="color: #d1c5cd">© 2020 Copyright: KSsquare.com
+</div>
+<br>
+<br>
+
+</footer>
       </section>
-        
+
 
 <!-- Footer -->
 <footer class="page-footer font-small blue">
@@ -202,52 +276,52 @@
 
 </footer>
 <!-- Footer -->
-  
 
 
 
 
-    
+
+
 </body>
-<script type="text/javascript">// api url 
+<script type="text/javascript">// api url
 
-fetch('https://api.rootnet.in/covid19-in/hospitals/beds') 
-.then(res=>res.json()) 
-.then(json=>console.log(json)); 
+fetch('https://api.rootnet.in/covid19-in/hospitals/beds')
+.then(res=>res.json())
+.then(json=>console.log(json));
 
 
-const api_url = 
-  "https://api.rootnet.in/covid19-in/hospitals/beds"; 
+const api_url =
+  "https://api.rootnet.in/covid19-in/hospitals/beds";
 
-// Defining async function 
-async function getapi(url) { 
-  
-  // Storing response 
-  const response = await fetch(url); 
-  
-  // Storing data in form of JSON 
-  var data = await response.json(); 
-  console.log(data); 
-  if (response) { 
-    hideloader(); 
-  } 
+// Defining async function
+async function getapi(url) {
+
+  // Storing response
+  const response = await fetch(url);
+
+  // Storing data in form of JSON
+  var data = await response.json();
+  console.log(data);
+  if (response) {
+    hideloader();
+  }
   //console.log(data)
-  show(data); 
-} 
-// Calling that async function 
-getapi(api_url); 
+  show(data);
+}
+// Calling that async function
+getapi(api_url);
 
-// Function to hide the loader 
-function hideloader() { 
-  document.getElementById('loading').style.display = 'none'; 
-} 
+// Function to hide the loader
+function hideloader() {
+  document.getElementById('loading').style.display = 'none';
+}
 
-// Function to define innerHTML for HTML table 
-function show(data) { 
-  let tab = 
+// Function to define innerHTML for HTML table
+function show(data) {
+  let tab =
     `
     <thead >
-        
+
       <th scope="col">State Name</th>
         <th scope="col">Rural Hospitals</th>
         <th scope="col">Rural Beds</th>
@@ -255,17 +329,17 @@ function show(data) {
         <th scope="col">Urban Beds</th>
         <th scope="col">Total Hospitals</th>
         <th scope="col">Total Beds (State Wise)</th>
-        
-    </thead>`; 
-  
-  // Loop to access all rows 
-  
-  for (let r of data['data']['regional']) { 
-    
+
+    </thead>`;
+
+  // Loop to access all rows
+
+  for (let r of data['data']['regional']) {
+
     tab += `
     <tbody>
     <tr>
-      
+
       <th scope="row">${r.state}</th>
         <td>${r.ruralHospitals}</td>
         <td>${r.ruralBeds}</td>
@@ -273,13 +347,13 @@ function show(data) {
         <td>${r.urbanBeds}</td>
         <td>${r.totalHospitals}</td>
         <td>${r.totalBeds}</td>
-        
+
     </tr>
-    </tbody>`; 
-  } 
-  // Setting innerHTML as tab variable 
-  document.getElementById("emp").innerHTML = tab; 
-} 
+    </tbody>`;
+  }
+  // Setting innerHTML as tab variable
+  document.getElementById("emp").innerHTML = tab;
+}
 
 
 
@@ -290,5 +364,5 @@ function show(data) {
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
- 
+
 </html>

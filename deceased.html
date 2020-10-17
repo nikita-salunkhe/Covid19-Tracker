@@ -2,7 +2,7 @@
 <html>
 
 <head>
- 
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
   <!-- jQuery library -->
@@ -14,30 +14,29 @@
   <title></title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
 
   <style type="text/css">
-    
-    #top1{
-      background-image: url('https://www.dsij.in/Portals/0/EasyDNNnews/7253/img-videoblocks-stock-exchange-statistics-on-screen-index-prices-growing-and-falling-trade-electronic-chart-with-stock-market-fluctuations_bk5mbky0e_thumbnail-full15.png');
-     
-      background-color:rgb(31, 37, 116);
-      text-align: center;
-      color: white;
-    }
-    .panel-body{
-        
-    }
+
+  #top1{
+    background-image: url('https://res.cloudinary.com/lokaci/image/upload/v1585031919/Newsroom/covid-19-banner_sec6x0.jpg');
+    background-color:rgb(31, 37, 116);
+    color: white;
+
+    padding: 100px;
+    width: 100%;
+    height: 450px;
+  }
 
 
-    
+
 .header{
-    
+
     color: gray;
     height: 100vh;
     position: relative;
@@ -48,12 +47,12 @@
     -msn-background-size: cover;
 }
 .header .overlay{
-  
+
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0; 
+    left: 0;
 }
 
 
@@ -61,7 +60,7 @@
   background-color:transparent !important;
   border-color:transparent;
   background-image:none;
-  box-shadow:none;  
+  box-shadow:none;
 }
 .header .navbar-default .navbar-brand{
     font-size: 30px;
@@ -70,8 +69,8 @@
 }
 
 .header .navbar-default .navbar-nav>li>a {
-   font-size:20px; 
-   color: #d1c5cd; 
+   font-size:20px;
+   color: #d1c5cd;
     border-bottom: 1px solid transparent
 }
 .header .navbar-default .navbar-nav>li:hover a{
@@ -81,9 +80,23 @@
 
 
 .header .navbar-toggle {
-      margin:10px 0; 
-      background:#36C; 
+      margin:10px 0;
+      background:#36C;
       color:gray;
+}
+.bg-text {
+  margin-top:2rem;
+  margin-bottom: 1rem;
+  margin-left: 20rem;
+
+  background-color: rgba(0,80,80, 0.5);
+  top: 50%;
+  left: 20%;
+  padding: 1px;
+  width: 60%;
+}
+.con{
+  background-color: black;
 }
   </style>
 </head>
@@ -102,83 +115,85 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                            <div class="navlogo col-lg-2">
-                                <a class="navbar-brand" href="#">Name</a>
-                            </div>
-                          
+
+
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
-                          
+
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <div class="col-lg-10">
                                       <ul class="nav navbar-nav nav-links">
-                                        <li><a href="main.html">Home</a></li>
-                                        <li><a href="one.html">Contact & Helpline</a></li>
-                                        <li><a href="notad.html">Notifications & Advisories</a></li>
-                                        <li><a href="hospital.html">Hospitals & Beds</a></li>
-                                        <li><a href="college.html">Colleges & Beds</a></li>
+                                        <li><a href="index.html" style="color: #F0FFFF">Home</a></li>
+                                        <li><a href="one.html" style="color: #F0FFFF"> Helpline</a></li>
+                                        <li><a href="notad.html" style="color: #F0FFFF">Notifications</a></li>
+                                        <li><a href="hospital.html" style="color: #F0FFFF">Hospitals & Beds</a></li>
+                                        <li><a href="college.html" style="color: #F0FFFF">Colleges & Beds</a></li>
 
                                       </ul>
                                     </div>
-                                    
-                              
-                              
+
+
+
                             </div>
-                         
+
 
                       </div>
                  </div>
-                
-                
+
+
                 </div>
-        
-                
-                
-                
-                
+
+
+
+
+
             </div>
-        
+
 
 
  <div class="panel ">
     <div class="panel-heading" id="top1" style=" ">
-       <div class="container" style="margin-top:10rem; margin-bottom: 10rem;">
-                <div class="row">
-                 <h1>Covid19 Deceased People Statistics</h1>
-                 
-                 <!-- Here a loader is created which  
-             loads till response comes -->
-       
-                 </div>
-         </div>
+
     </div>
 
     <div class="panel-body">
-         
-        <div class="row">
-        <div class="col-lg-6" id="reportpage">
-            
-            <canvas id="myChart" width="80" height="60"><label style="color: black;">GRAPH SELECT PARAMETERS AND CLICK SUBMIT BUTTON THEN GRAPH WILL APPER</label></canvas>
-            
-
+      <div class="container">
+               <div class="row">
+                 <div class="bg-text">
+                   <center>
+                <h1 style ="color: Snow">Hospital and beds</h1>
+               </center>
+               </div>
+               </div>
         </div>
-        
+        <br>
+        <br>
+        <div class="row">
+
+
         <div class="col-lg-6" class="half">
 
 
                  <div class="row">
-                <div class="col-lg-4"> 
-                 
+                     <div class="col-lg-1">
+                     </div>
+                <div class="col-lg-1">
+                 <label>Gender</label>
+               </div>
+                 <div class="col-lg-3">
                    <select name="state" id="gender" class="form-control">
             <option value="male">MALE</option>
             <option value="female">FEMALE</option>
             <option value="null">NA</option>
                    </select>
-                 
-                </div>
 
-                 <div class="col-lg-4"> 
+                </div>
+                 <div class="col-lg-1"></div>
+                <div class="col-lg-1">
+                 <label>State</label>
+               </div>
+                 <div class="col-lg-3">
                    <select name="state" id="state" class="form-control">
             <option value="Andhra Pradesh">Andhra Pradesh</option>
       <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
@@ -217,10 +232,17 @@
       <option value="Uttarakhand">Uttarakhand</option>
       <option value="West Bengal">West Bengal</option>
       </select>
-                 
-                </div>
 
-               <div class="col-lg-4"> 
+                </div>
+        </div>
+        <br>
+        <div class ="row">
+          <div class="col-lg-1">
+          </div>
+     <div class="col-lg-1">
+      <label>Age</label>
+    </div>
+      <div class="col-lg-3">
                    <select name="state" id="age" class="form-control">
                     <option value="0">0-9</option>
                    <option value="10">10-19</option>
@@ -230,7 +252,7 @@
                     <option value="50">50-59</option>
                     <option value="60">60-69</option>
                    <option value="70">70 and above</option>
-                   
+
                     </select>
 
               </div>
@@ -239,116 +261,212 @@
 
                  <br>
                  <br>
+
+
                  <div class="row">
-                  <div class="col-lg-11">]
-                    <center>
-                                 <label style="color: black;">(Enter date between 1Jan2020 -30Apr2020)</label>
+                  <div class="col-lg-1"></div>
+                  <div class="col-lg-10">
+                    <label style="color: black;">Enter date between 1 Jan2020 -30 Apr2020</label>
+                  </div>
+                  <div class="col-lg-1"> </div>
+                </div>
+                <br>
+
+                 <div class="row">
+                  <div class="col-lg-1">
+                  </div>
+                  <div class="col-lg-4">
                                 <form class="form-inline" action="">
                                    <label style="color: black;" >From:</label>
                                  <span><input type="date"  class="form-control" placeholder="Enter date" id="date1" ></span>
+                               </form>
+                             </div>
+                               <div class="col-lg-5">
+                                   <form class="form-inline" action="">
                                    <label style="color: black;" >To:</label>
+
                                  <span><input type="date" class="form-control" placeholder="Enter date" id="date2"></span>
                                 </form>
-                              </center>
+                              </div>
+
+
+                  <div class="col-lg-1">
                   </div>
                 </div>
-                    <br>
-                    <center>
-                          <button  class="btn btn-success" onclick="getOption()"> 
+                <br>
+
+                    <div class="row">
+                     <div class="col-lg-1">
+                     </div>
+                     <div class="col-lg-3">
+                          <button  class="btn btn-success" onclick="getOption()">
                           SHOW GRAPH
                           </button>
+                        </div>
+                         <div class="col-lg-4">
                           <a class="btn btn-success" href="#" id="downloadPdf">Download Graph as PDF</a>
-                        </center>
 
-                   
+                     </div>
+                     <div class="col-lg-1">
+                     </div>
+                   </div>
                           <br>
                           <br>
                     <div class="row">
-                          <div class="col-lg-3" align="center"> 
+                          <div class="col-lg-1" align="center">
                           </div>
-                        <div class="col-lg-6" align="center"> 
+                        <div class="col-lg-6" align="center">
                             <form >
 
                             <input  type="email" class="form-control" placeholder="Enter email to send" id="email" >
-                            <br>
-                            <input type="button" class="btn btn-info" value="Send" onclick="sendEmail()">
-                            </form>  
                           </div>
-                           <div class="col-lg-3" align="center"> 
-                              
+                          <div class="col-lg-2" align="center">
+                            <input type="button" class="btn btn-info" value="Send" onclick="sendEmail()">
+                            </form>
+                          </div>
+                           <div class="col-lg-1" align="center">
+
                           </div>
                     </div>
 
                     <br>
                     <br>
-                       
+
+                </div>
+                <div class="col-lg-6" id="reportpage">
+
+                    <canvas id="myChart" width="80" height="60"><label style="color: black;">GRAPH SELECT PARAMETERS AND CLICK SUBMIT BUTTON THEN GRAPH WILL APPER</label></canvas>
+
+
                 </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
     </div>
-
-
-  </div> 
-      
+  </div>
 </div>
+  <footer class="con">
+<div class="container">
+<section id="contact_us">
+<center>
+<br>
+<br>
+<h1 style= "color:  #d1c5cd">Contact Us</h1>
+<br>
+<br>
+<div class="mb-5 flex-center">
+  <!-- Facebook -->
+  <a class="fb-ic">
+    <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x" style="padding: 1rem; font-size:60px;color: #3b5998;"> </i>
+  </a>
+  <!-- Twitter -->
+  <a class="tw-ic">
+    <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x" style="padding: 1rem; font-size:60px;color: #00aced;"> </i>
+  </a>
+  <!-- Google +-->
+  <a class="gplus-ic">
+    <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x" style="padding: 1rem; font-size:60px;color:green"> </i>
+  </a>
+  <!--Linkedin -->
+  <a class="li-ic">
+    <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x" style="padding: 1rem; font-size:60px; color: #0e76a8"> </i>
+  </a>
+  <!--Instagram-->
+  <a class="ins-ic">
+    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x" style="padding: 1rem; font-size:60px;  color: pink;"> </i>
+  </a>
+  <br>
+  <br>
+</div>
+<div class="row">
+    <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4"></div>
+    <div class="col-sm-2 col-md-2 col-xs-2 col-lg-2">
+  <a class="phone">
+    <i class="fa fa-phone" aria-hidden="true" style="font-size:36px;color: #d1c5cd"> </i>
+    <br>
+    <h5 style="font-size:20px;color: #d1c5cd">777777777</h5>
+  </a>
+  <br>
+</div>
+  <div class="col-sm-2 col-md-2 col-xs-2 col-lg-2">
+  <!--Pinterest-->
+  <a class="email">
+    <i class="fa fa-envelope" aria-hidden="true" style="font-size:36px;color: #d1c5cd"> </i>
+    <br>
+      <h6 style="font-size:20px;color: #d1c5cd">123@gmail.com</h6>
+  </a>
+</div>
+<div class="col-sm-4 col-md-4 col-xs-4 col-lg-4"></div>
+</div>
+</center>
 
+</section>
+</div>
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3" style="color: #d1c5cd">© 2020 Copyright: KSsquare.com
+</div>
+<br>
+<br>
+
+</footer>
       </section>
-        
 
 
-  
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+      </section>
 
 
 
 
-    
+
+
+
+
+
 </body>
-<script type="text/javascript">// api url 
+<script type="text/javascript">// api url
 
 var gender,age,state,date1,date2,g1,g2;
 
 
 
- fetch('https://deceased-person.herokuapp.com/') 
-.then(res=>res.json()) 
-.then(json=>console.log(json)); 
+ fetch('https://deceased-person.herokuapp.com/')
+.then(res=>res.json())
+.then(json=>console.log(json));
 
 
-const api_url = 
-  "https://deceased-person.herokuapp.com/"; 
+const api_url =
+  "https://deceased-person.herokuapp.com/";
 
 
-async function getapi(url) { 
-  
-    // Storing response 
-    const response = await fetch(url); 
-    
-    // Storing data in form of JSON 
-    var data = await response.json(); 
-    console.log(data); 
-    if (response) { 
-     // hideloader(); 
-    } 
-    show(data); 
-                  } 
+async function getapi(url) {
+
+    // Storing response
+    const response = await fetch(url);
+
+    // Storing data in form of JSON
+    var data = await response.json();
+    console.log(data);
+    if (response) {
+     // hideloader();
+    }
+    show(data);
+                  }
 
 
-    function show(data) { 
+    function show(data) {
 
   var temp=[];
   var fin=[];
 var fin1=[];
-  for (let r of data['data']) { 
+  for (let r of data['data']) {
     //console.log(r.state);
     if(r.gender==null)
         console.log(r.patientId);
@@ -365,19 +483,19 @@ var fin1=[];
       i++;
      }
      var mm=i;
-    
+
      var s=str.substring((str.length)-4,str.length)+"-"+str.substring(dd+1,mm)+"-"+str.substring(0,dd);
      var ex=9;
     var k=new Date(s);
     if(r.ageEstimate==70)
     {
-     ex=30; 
+     ex=30;
     }
     if(state==r.state && gender==r.gender  && (r.ageEstimate>=parseInt (age) && r.ageEstimate<=parseInt (age)+ex) && (k.getTime() >=g1.getTime() && k.getTime()<=g2.getTime()))
-    {   
+    {
         temp.push(r.patientId);
     }
-    
+
     }
 
 
@@ -389,7 +507,7 @@ var f=[];
 
 
 var k=new Date();
-for (let r of data['data']) { 
+for (let r of data['data']) {
 
   var prev=k;
   for(var i=0;i<temp.length;i++){
@@ -399,7 +517,7 @@ for (let r of data['data']) {
                fin.push(r.reportedOn);
                fin1.push(r.status);
 
-               
+
             }
 
      }
@@ -410,7 +528,7 @@ for (var i = 0; i < fin.length; i++)
     {
       console.log("hii"+fin[i]+" "+fin1[i]);
     }
-  
+
       var it=fin[0];
       x.push(fin[0]);
     var count=0,i=0;
@@ -433,43 +551,43 @@ for (var i = 0; i < fin.length; i++)
       i++;
     }
     y.push(count);
-  
+
    for (var i = 0; i < x.length; i++) {
              console.log("bye"+x[i]+" "+y[i]);
            }
 
 
-     
-     
+
+
      chart(x,y);
 
        }
 
- function getOption() { 
-            selectElement =  document.querySelector('#gender'); 
+ function getOption() {
+            selectElement =  document.querySelector('#gender');
             gender = selectElement.value;
             selectElement =  document.querySelector('#state');
             state = selectElement.value;
-            selectElement =  document.querySelector('#age');    
-            age = selectElement.value;   
-             date1 =  document.getElementById("date1").value; 
-             date2 =  document.getElementById("date2").value;           
-             
-                
-            g1 = new Date(date1); 
-            g2 = new Date(date2); 
-             
+            selectElement =  document.querySelector('#age');
+            age = selectElement.value;
+             date1 =  document.getElementById("date1").value;
+             date2 =  document.getElementById("date2").value;
 
-          
+
+            g1 = new Date(date1);
+            g2 = new Date(date2);
+
+
+
            getapi(api_url);
-        } 
+        }
 
 
 
 
 function sendEmail() {
 
-  selectElement =  document.querySelector('#email'); 
+  selectElement =  document.querySelector('#email');
   var email = selectElement.value;
   Email.send({
   Host: "smtp.gmail.com",
@@ -483,7 +601,7 @@ function sendEmail() {
     message => alert("mail sent successfully")
   );
 }
- 
+
  async function chart(x,y){
   var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
@@ -493,18 +611,18 @@ var myChart = new Chart(ctx, {
               datasets: [{
                   label: 'Line ',
                   data: y,
-                  backgroundColor: 
+                  backgroundColor:
                       'rgba(255, 99, 132, 0.2)',
-                  borderColor: 
+                  borderColor:
                       'rgba(255, 99, 132, 1)',
                   fill:false,
                   borderWidth: 1
               },{
                  label: 'bar ',
                   data: y,
-                  backgroundColor: 
+                  backgroundColor:
                       'rgba(255, 99, 132, 0.2)',
-                  borderColor: 
+                  borderColor:
                       'rgba(54, 162, 235, 0.2)',
                   fill:false,
                   borderWidth: 1,
@@ -523,55 +641,55 @@ var myChart = new Chart(ctx, {
     }
 });
 }
-  // Calling that async function 
+  // Calling that async function
 
 
-  // Function to hide the loader 
-  /*function hideloader() { 
-    document.getElementById('loading').style.display = 'none'; 
+  // Function to hide the loader
+  /*function hideloader() {
+    document.getElementById('loading').style.display = 'none';
   } */
-// Function to define innerHTML for HTML table 
+// Function to define innerHTML for HTML table
 
 
 $('#downloadPdf').click(function(event) {
   // get size of report page
   var reportPageHeight = $('#reportpage').innerHeight();
   var reportPageWidth = $('#reportpage').innerWidth();
-  
+
   // create a new canvas object that we will populate with all other canvas objects
   var pdfCanvas = $('<canvas />').attr({
     id: "canvaspdf",
     width: reportPageWidth,
     height: reportPageHeight
   });
-  
+
   // keep track canvas position
   var pdfctx = $(pdfCanvas)[0].getContext('2d');
   var pdfctxX = 0;
   var pdfctxY = 0;
   var buffer = 100;
-  
+
   // for each chart.js chart
   $("canvas").each(function(index) {
     // get the chart height/width
     var canvasHeight = $(this).innerHeight();
     var canvasWidth = $(this).innerWidth();
-    
+
     // draw the chart into the new canvas
     pdfctx.drawImage($(this)[0], pdfctxX, pdfctxY, canvasWidth, canvasHeight);
     pdfctxX += canvasWidth + buffer;
-    
+
     // our report page is in a grid pattern so replicate that in the new canvas
     if (index % 2 === 1) {
       pdfctxX = 0;
       pdfctxY += canvasHeight + buffer;
     }
   });
-  
+
   // create new pdf and add our new canvas as an image
   var pdf = new jsPDF('l', 'pt', [reportPageWidth, reportPageHeight]);
   pdf.addImage($(pdfCanvas)[0], 'PNG', 0, 0);
-  
+
   // download the pdf
   pdf.save('filename.pdf');
 });
@@ -580,7 +698,7 @@ $('#downloadPdf').click(function(event) {
 
 
 
-       
-   
+
+
 </script>
 </html>
